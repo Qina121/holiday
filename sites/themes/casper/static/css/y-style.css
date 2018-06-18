@@ -138,7 +138,7 @@ h6 {
   display: block;
   width: 0px;
   height: 3px;
-  background-color: #595959;
+  background-color: #52bad5;
   margin: 0 auto;
   opacity: 0;
 }
@@ -261,7 +261,7 @@ h6 {
   margin-top: -5px;
 }
 .y-header .tip .phone a:hover {
-  color: #000;
+  color: #2c9ab7;
 }
 .y-header .tip .consult {
   float: left;
@@ -269,13 +269,13 @@ h6 {
   line-height: 30px;
   /* width: 48px; */
   text-align: center;
-  background-color: #8c8c8c;
+  background-color: #52bad5;
   margin-right: 20px;
   border-radius: 6px;
   margin-top: -3px;
 }
 .y-header .tip .consult:hover {
-  background-color: #595959;
+  background-color: #2c9ab7;
 }
 .y-header .tip .consult a {
   padding: 0 10px;
@@ -289,7 +289,7 @@ h6 {
   font-weight: 500;
 }
 .y-header .tip .login a:hover {
-  color: #000;
+  color: #2c9ab7;
 }
 .y-header .tip .search {
   float: left;
@@ -401,6 +401,7 @@ h6 {
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
+  margin-top: 15px;
 }
 .item-default .message {
   width: 73px;
@@ -444,6 +445,8 @@ h6 {
 .y-autofunction {
   /* width: 1280px; */
   /* margin: 0 auto 40px; */
+  background-image: url(/images/30.jpg);
+  background-size: 100% 100%; 
 }
 
 .item-default .left {
@@ -912,8 +915,10 @@ h6 {
 } 
 /* 营销自动化 */
 .y-automation {
-  color: #fff;
+  color: #000;
   position: relative;
+  background-image:url(/images/18.jpg);
+  background-size: 100% 100%; 
 }
 .maketing{
   position: relative;
@@ -969,6 +974,9 @@ body .y-automation {
   font-weight: 400;
   color: #000;
   /* margin-bottom: 40px; */
+}
+.y-automation .center .harvest{
+  color: #000;
 }
 .center_item span {
   font-size: 22px;
@@ -1762,7 +1770,7 @@ body .y-automation {
 .fixHeight {
   /* margin: 40px auto; */
 }
-.fixHeight .functuon_block{
+.fixHeight .function_block{
   width: 100%;
   /* width: 1280px; */
   padding: 60px 0;
@@ -1773,34 +1781,34 @@ body .y-automation {
   margin: 0 auto;
   position: relative;
 }
-.functuon_block .cloud .selfdom_yunUp{
+.function_block .cloud .selfdom_yunUp{
   position: absolute;
   bottom: 0px;
   right: 0;
 }
-.functuon_block .cloud .selfdom_yunDown{
+.function_block .cloud .selfdom_yunDown{
   position: absolute;
   top: 0px;
   left: 0;
 }
-.functuon_block .cloud .flow_yunUp{
+.function_block .cloud .flow_yunUp{
   position: absolute;
   top: 0px;
   right: 83px;
   /* right: 0; */
 }
-.functuon_block .cloud .flow_yunDown{
+.function_block .cloud .flow_yunDown{
   position: absolute;
   bottom: 0px;
   left: 0;
 }
-.functuon_block .cloud .group_yunUp{
+.function_block .cloud .group_yunUp{
   position: absolute;
   top: 0px;
   right: 0;
   width: 450px;
 }
-.functuon_block .cloud .group_yunDown{
+.function_block .cloud .group_yunDown{
   position: absolute;
   bottom: 0px;
   left: 78px;
@@ -1816,16 +1824,16 @@ body .y-automation {
   bottom: 0px;
   right: 0px;
 }
-.fixHeight .functuon_block .distribute img{
+.fixHeight .function_block .distribute img{
   width: 350px;
   /* height: 350px; */
 }
-.fixHeight .functuon_block .right img{
+.fixHeight .function_block .right img{
   /* transform: skewY(4deg); */
   /* transform:rotateX(-7deg); */
   box-shadow:15px 15px 18px rgba(0,0,0,0.3);
 }
-.fixHeight .functuon_block .left img{
+.fixHeight .function_block .left img{
   /* transform: skewY(4deg); */
   /* transform:rotateX(-7deg); */
   box-shadow:-15px 15px 18px rgba(0,0,0,0.3);
@@ -1973,7 +1981,7 @@ body .y-automation {
   width: 40px;
   height: 40px;
   /* height: 130px; */
-  background-color: #8c8c8c;
+  background-color: #52bad5;
   border-radius: 4px;
   font-size: 14px;
   cursor: pointer;
@@ -2004,7 +2012,7 @@ body .y-automation {
 .consult_win .let {
   height: 32px;
   line-height: 32px;
-  background-color: #8c8c8c;
+  background-color: #52bad5;
   text-align: center;
   color: #fff;
   margin-bottom: 20px;
@@ -2039,7 +2047,7 @@ body .y-automation {
 .consult_win .chat {
   height: 32px;
   line-height: 32px;
-  background-color: #8c8c8c;
+  background-color: #52bad5;
   text-align: center;
   color: #fff;
   font-size: 16px;
